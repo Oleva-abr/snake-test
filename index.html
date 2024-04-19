@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <body>
+      <div class="container">
+        <p class="text">Use keyboard arrows or controller buttons</p>
+        <div id="gameBoard" class="game-board"></div>
+        <!-- Controls for mobile -->
+        <div class="controls">
+          <button class="up">↑</button>
+          <button class="left">←</button>
+          <button class="right">→</button>
+          <button class="down">↓</button>
+        </div>
+          <!-- Controls for mobile -->
+        <div id="score" class="score" >Score: 0</div>
+        <div id="gameOverMessage"  class="message"></div>
+        <button id="restartButton" class="button">Restart Game</button>
+      </div>
+      <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
